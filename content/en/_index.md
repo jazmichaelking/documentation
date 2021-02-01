@@ -10,11 +10,11 @@ menu:
 
 ## What is a microblog? {#microblogging}
 
-Similar to how blogging is the act of publishing updates to a website, **microblogging** is the act of publishing small updates to a stream of updates on your profile. You can publish text posts and optionally attach media such as pictures, audio, video, or polls. Mastodon lets you follow friends and discover new ones.
+Similar to how blogging is the act of publishing updates to a website, **microblogging** is the act of publishing small updates to a stream of updates on your profile. You can publish text posts and attach pictures, audio, video, or polls. Mastodon lets you follow friends and discover new ones.
 
 ## What is federation? {#federation}
 
-**Federation** is a form of decentralization. Instead of a single central service that all people use, there are multiple services, that any number of people can use.
+**Federation** is a form of decentralization. Instead of a single, central service that all members use, there are multiple versions of the same service that any number of people can use.
 
 | Grade of centralization | Examples |
 | :--- | :--- |
@@ -22,7 +22,7 @@ Similar to how blogging is the act of publishing updates to a website, **microbl
 | Federated | Email, XMPP, phone networks, physical mail |
 | Distributed | BitTorrent, IPFS, Scuttlebutt |
 
-A Mastodon website can operate alone. Just like a traditional website, people sign up on it, post messages, upload pictures and talk to each other. _Unlike_ a traditional website, Mastodon websites can interoperate, letting their users communicate with each other; just like you can send an email from your Gmail account to someone from Outlook, Fastmail, Protonmail, or any other email provider, as long as you know their email address, **you can mention or message anyone on any website using their address**.
+A Mastodon website can operate alone or as part of the network. Just like a traditional website, people sign up, post messages, upload pictures and talk to each other. _Unlike_ a traditional website, Mastodon websites can interoperate, letting their users communicate with each other. Just like you can send an email from your Gmail account to someone using Outlook **you can mention or message anyone on any website using their address**.
 
 {{< figure src="/assets/network-models.jpg" caption="From left to right: Centralized, Federated, Distributed" >}}
 
@@ -30,9 +30,9 @@ A Mastodon website can operate alone. Just like a traditional website, people si
 
 ## What is ActivityPub? {#fediverse}
 
-Mastodon uses a standardized, open protocol to implement federation. It is called **ActivityPub**. Any software that likewise implements federation via ActivityPub can seamlessly communicate with Mastodon, just like Mastodon websites communicate with one another.
+Mastodon uses **ActivityPub** -a standard, open protocol - to implement federation. Any software that implements federation using ActivityPub can seamlessly communicate with Mastodon, just like Mastodon websites can communicate with each other.
 
-The **fediverse** \(“federated universe”\) is the name for all websites that can communicate with each other over ActivityPub and the World Wide Web. That includes all Mastodon servers, but also other implementations:
+The **fediverse** \(“federated universe”\) is the name for all websites that can communicate with each other using ActivityPub and the World Wide Web. That includes all Mastodon servers, and other websites like:
 
 * Pleroma, a modular microblogging engine,
 * Pixelfed, federated image sharing platform, which lets you share and consume media posts,
@@ -47,7 +47,7 @@ The fediverse does not have its own brand, so you might more often hear “follo
 
 ### Choice of service provider and policy {#choice}
 
-Because Mastodon is simply software that can be used to power any website, potential users of Mastodon have the option of choosing a service provider from already-existing Mastodon websites, or to create their own Mastodon website if they wish. The Mastodon project maintains a list of recommended service providers at [joinmastodon.org](https://joinmastodon.org), sortable by category and/or language. Some websites may have moderation policies that go beyond this, such as requiring the use of certain tags on potentially sensitive content, and some websites may have more relaxed moderation policies, but websites listed in the picker all agree to adopt the [Mastodon Server Covenant](https://joinmastodon.org/covenant), meaning that they pledge to actively moderate against hate speech, to take daily backups, to have at least one emergency admin, and to provide at least 3 months advance notice in case of shutdown.
+Because Mastodon is software that can be used to power any website, users of Mastodon have the option of choosing a service provider from existing Mastodon websites, or creating their own Mastodon website. The Mastodon project maintains a list of recommended service providers at [joinmastodon.org](https://joinmastodon.org), sortable by category and/or language. Some websites may have strong moderation policies such as requiring the use of certain tags on potentially sensitive content, others may have more relaxed policies, but the recommended websites have all agreed to adopt the [Mastodon Server Covenant](https://joinmastodon.org/covenant), meaning that they pledge to actively moderate against hate speech, to make daily backups, to have at least one additioanl emergency administrator, and to provide at least three months advance notice before a planned shutdown.
 
 > Maintaining communities that feel safe for all of its members is not easy. Mastodon provides a lot of foundational framework and tools for doing it, and shifts the power to effect change from one commercial entity to the communities themselves.
 >
@@ -59,9 +59,9 @@ Because Mastodon is simply software that can be used to power any website, poten
 
 ### Funding and monetization {#monetization}
 
-Mastodon websites are operated by different people or organizations completely independently. Mastodon does not implement any monetization strategies in the software.
+Mastodon websites are operated by different people or organizations completely independently. Mastodon does not implement any monetization in the software.
 
-Some server operators choose to offer paid accounts, some server operators are companies who can utilize their existing infrastructure, some server operators rely on crowdfunding from their users via Patreon and similar services, and some server operators are just paying out-of-pocket for a personal server for themselves and maybe some friends. So if you want to support the server hosting your account, check if it offers a way to donate.
+Some server operators choose to offer paid accounts, some server operators are companies who can use their existing infrastructure, some server operators rely on crowdfunding from their users via Patreon and similar services, and some server operators are just paying out-of-pocket for a personal server for themselves and maybe some friends. So if you want to support the server hosting your account, check if it offers a way to donate.
 
 Mastodon development is likewise crowdfunded via [Patreon](https://patreon.com/mastodon) and via [OpenCollective](https://opencollective.com/mastodon). **No venture capital is involved.**
 
