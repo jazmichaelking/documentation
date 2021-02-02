@@ -30,7 +30,7 @@ A Mastodon website can operate alone or as part of the network. Just like a trad
 
 ## What is ActivityPub? {#fediverse}
 
-Mastodon uses **ActivityPub** -a standard, open protocol - to implement federation. Any software that implements federation using ActivityPub can seamlessly communicate with Mastodon, just like Mastodon websites can communicate with each other.
+Mastodon uses **ActivityPub** -a standard, open Internet protocol - to implement federation. Any software that implements federation using ActivityPub can seamlessly communicate with Mastodon, just like Mastodon websites can communicate with each other.
 
 The **fediverse** \(“federated universe”\) is the name for all websites that can communicate with each other using ActivityPub and the World Wide Web. That includes all Mastodon servers, and other websites like:
 
@@ -47,7 +47,7 @@ The fediverse does not have its own brand, so you might more often hear “follo
 
 ### Choice of service provider and policy {#choice}
 
-Because Mastodon is software that can be used to power any website, users of Mastodon have the option of choosing a service provider from existing Mastodon websites, or creating their own Mastodon website. The Mastodon project maintains a list of recommended service providers at [joinmastodon.org](https://joinmastodon.org), sortable by category and/or language. Some websites may have strong moderation policies such as requiring the use of certain tags on potentially sensitive content, others may have more relaxed policies, but the recommended websites have all agreed to adopt the [Mastodon Server Covenant](https://joinmastodon.org/covenant), meaning that they pledge to actively moderate against hate speech, to make daily backups, to have at least one additioanl emergency administrator, and to provide at least three months advance notice before a planned shutdown.
+Because Mastodon is software that can be used to power any website, users of Mastodon have the option of choosing a service provider from existing Mastodon websites, or creating their own. The Mastodon project maintains a list of recommended service providers at [joinmastodon.org](https://joinmastodon.org), sortable by category and language. Some websites may have strong moderation policies such as requiring the use of certain tags on sensitive content, others may have more relaxed policies, but the recommended websites have all agreed to adopt the [Mastodon Server Covenant](https://joinmastodon.org/covenant), meaning that they pledge to actively moderate against hate speech, to make daily backups, to have at least one additioanl emergency administrator, and to provide at least three months advance notice before a planned shutdown.
 
 > Maintaining communities that feel safe for all of its members is not easy. Mastodon provides a lot of foundational framework and tools for doing it, and shifts the power to effect change from one commercial entity to the communities themselves.
 >
@@ -59,9 +59,9 @@ Because Mastodon is software that can be used to power any website, users of Mas
 
 ### Funding and monetization {#monetization}
 
-Mastodon websites are operated by different people or organizations completely independently. Mastodon does not implement any monetization in the software.
+Mastodon websites are independently operated by different people or organizations. Mastodon does not implement any monetization in the software.
 
-Some server operators choose to offer paid accounts, some server operators are companies who can use their existing infrastructure, some server operators rely on crowdfunding from their users via Patreon and similar services, and some server operators are just paying out-of-pocket for a personal server for themselves and maybe some friends. So if you want to support the server hosting your account, check if it offers a way to donate.
+Some server operators choose to offer paid accounts, some are companies who use their own infrastructure, others rely on crowdfunding from their users via Patreon and similar services, and some server operators are just paying out-of-pocket for a personal server for themselves and maybe some friends. To support the server hosting your account, check if it offers a way to donate.
 
 Mastodon development is likewise crowdfunded via [Patreon](https://patreon.com/mastodon) and via [OpenCollective](https://opencollective.com/mastodon). **No venture capital is involved.**
 
@@ -71,7 +71,7 @@ Mastodon development is likewise crowdfunded via [Patreon](https://patreon.com/m
 
 ### Interoperability between different software {#interoperability}
 
-In practical terms: Imagine if you could follow an Instagram user from your Twitter account and comment on their photos without leaving your account. If Twitter and Instagram were federated services that used the same protocol, that would be possible. With a Mastodon account, **you can communicate with any other compatible website,** _**even if it is not running on Mastodon**_. All that is necessary is that the software support the same subset of the ActivityPub protocol that allows for creating and interacting with status updates. To find out more about the technical specifications required to interoperate with Mastodon, see [ActivityPub](spec/activitypub), [WebFinger](spec/webfinger), and [Security](spec/security). To read more about what ActivityPub allows us to do, see [Why ActivityPub is the future](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/).
+Imagine if you could follow an Instagram user from your Twitter account and comment on their photos without leaving Twitter. If Twitter and Instagram were federated services that used the same protocol, that would be possible. With a Mastodon account, **you can communicate with any other compatible website or service,** _**even if it is not running on Mastodon**_. All that is necessary is that the software supports the same ActivityPub protocol that allows for creating and interacting with Mastodon. To find out more about the technical specifications required to interoperate with Mastodon, see [ActivityPub](spec/activitypub), [WebFinger](spec/webfinger), and [Security](spec/security). To read more about what ActivityPub allows us to do, see [Why ActivityPub is the future](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/).
 
 > All of these platforms are different and they focus on different needs. And yet, the foundation is all the same: people subscribing to receive posts from other people. And so, they are all compatible.
 >
@@ -79,7 +79,7 @@ In practical terms: Imagine if you could follow an Instagram user from your Twit
 
 ### Free/libre software {#libre}
 
-Unlike proprietary services, **anyone has the complete freedom to run, examine, inspect, copy, modify, distribute, and reuse the Mastodon source code, provided they guarantee the same freedoms for any derivative work.** Just like how users of Mastodon can choose their service provider, you as an individual are free to contribute features to Mastodon or publish a modified version of Mastodon that includes different features. These modified versions, also known as software forks, are required to also uphold the same freedoms as the original Mastodon project. For example, [glitch-soc](https://glitch-soc.github.io/docs/) is a software distribution that adds various experimental features. Many individual forks exist as well, perhaps themed slightly differently or including small modifications to the codebase. Because Mastodon is libre software that respects your freedom, personalizations like this are not only allowed but encouraged.
+Unlike proprietary services, **anyone has the complete freedom to run, examine, inspect, copy, modify, distribute, and reuse the Mastodon source code, provided they guarantee the same freedoms for any derivative work.** You as an individual are free to contribute features to Mastodon or publish a modified version of Mastodon that includes different features. These modified versions, also known as software forks, are required to uphold the same freedoms as the original Mastodon project. For example, [glitch-soc](https://glitch-soc.github.io/docs/) is a modified version of Mastodon that adds experimental features. Many individual forks exist as well, perhaps themed slightly differently or including small modifications to the codebase. Because Mastodon is libre software that respects your freedom, personalizations like this are not only allowed but encouraged.
 
 > The ultimate power is in giving people the ability to create their own spaces, their own communities, to modify the software as they see fit, but without sacrificing the ability of people from different communities to interact with each other.
 >
